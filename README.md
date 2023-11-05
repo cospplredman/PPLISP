@@ -53,6 +53,7 @@ to define additional primitives simply make a macro like so
 #define M_MACRONAME MACRONAME
 #define MACRONAME(ARG1, ARG2, ..., ARGN)EVAL( /*expr*/ )
 ```
+recursive primitives are totally allowed, feel free to experiment! 
 
 ## examples
 here is an example of a NOT macro
