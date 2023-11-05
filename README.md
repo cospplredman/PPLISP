@@ -69,10 +69,11 @@ here is an example of a NOT macro
 
 /*without the $() EVAL will attempt to evaluate T or F which doesn't make any sense*/
 
-EXP(EVAL(
+EXP(
+EVAL(
     (NOT, $(T)) /*evaluates to (F)*/
-    (NOT, $(F)) /*evaluates to (T)*/
-))
+)
+EVAL(
+    (NOT, $(F)) /*evaluates to (T)*/)
+)
 ```
-
-
