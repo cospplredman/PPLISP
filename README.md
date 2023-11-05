@@ -76,4 +76,5 @@ EVAL(
 EVAL(
     (NOT, $(F)) /*evaluates to (T)*/)
 )
+)
 ```
