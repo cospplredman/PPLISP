@@ -16,7 +16,8 @@ the `EXP` macro applies 3^10 or so scans of the preprocessor and the `EVAL` macr
 
 ## expressions
 a pplisp expression has the following format
-`(MACRO, ARG1, ARG2, ..., ARGN)`
+`(MACRO, EXPR1, EXPR2, ..., EXPRN)`
+the result of evaluating EXPR1, ..., EXPRN are passed to MACRO as ARG1, ... ARGN
 
 ## primitives
 the following macros are defined for use as PPLISP primitives
